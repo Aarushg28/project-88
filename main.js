@@ -97,7 +97,7 @@ function my_keydown(e)
 
 	function down()
 	{
-		if (ball_y <= 450){
+		if (ball_y <= 400){
 			ball_y = ball_y + block_image_height;
 			console.log("block image height = "+ block_image_height);
 			console.log("When up arrow key is pressed, x = "+ ball_x + ", y = "+ball_y);
